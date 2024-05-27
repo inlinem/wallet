@@ -1,0 +1,34 @@
+@import "../../common.scss";
+
+.green {
+  color: $green-color;
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balanceTitle {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.balanceValue {
+  display: flex;
+}
+
+.usdtContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usdt,
+.erc20 {
+  display: inline-block;
+}
+
+.erc20 {
+  position: relative;
+  font-size: 10px;
+}
